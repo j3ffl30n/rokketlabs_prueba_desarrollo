@@ -61,9 +61,10 @@ yarn start
 ###### Mostrara una tabla con todos los registros almacenados en la base de datos, al ser llamado el metodo GET de la api.
 <br><br>
 ##### Para esta aplicación se uso una base de datos mongo la cual se encuentra en alojada en  https://cloud.mongodb.com los datos de acceso los enviare por correo electronico a fin de que puedan verificar que a traves de la api los datos se persisten en la misma.
-
 <br>
-##### Para las pruebas use el framework jest js, sin embargo me arrojo varios errores y no pude terminarlas, de igual manera pueden probar los endpoints ejecutando el comando:
+
+###### Para las pruebas use el framework jest js, sin embargo me arrojo varios errores y no pude terminarlas, de igual manera pueden probar los endpoints ejecutando el comando:
+
 ```bash
 yarn test
 ```
