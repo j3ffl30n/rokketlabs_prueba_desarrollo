@@ -44,3 +44,26 @@ node server.js
 ```
 ###### Ademas en el header se debe indicar que el Content-Type debe ser de tipo application/json
 <br><br>
+
+------------
+### Frontend - react js app
+##### Ingresamos al directorio desde una terminal, e instalamos las dependencias del proyecto, para ello ejecutamos el siguiente comando :
+```bash
+yarn install
+```
+##### Una vez instaladas las dependencias, levantamos la aplicacion con el siguiente comando :
+```bash
+yarn start
+```
+##### La misma se ejecutara en el puerto 3000, podemos acceder a ella con la direccion 
+[http://localhost:3000](http://localhost:3000)
+
+###### Mostrara una tabla con todos los registros almacenados en la base de datos, al ser llamado el metodo GET de la api.
+<br><br>
+#####Para esta aplicación se uso una base de datos mongo la cual se encuentra en alojada en  https://cloud.mongodb.com los datos de acceso los enviare por correo electronico a fin de que puedan verificar que a traves de la api los datos se persisten en la misma.
+
+<br>
+#####Para las pruebas use el framework jest js, sin embargo me arrojo varios errores y no pude terminarlas, de igual manera pueden probar los endpoints ejecutando el comando:
+```bash
+yarn test
+```
